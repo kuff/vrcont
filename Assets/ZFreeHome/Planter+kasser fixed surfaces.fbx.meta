@@ -1,9 +1,39 @@
 fileFormatVersion: 2
 guid: fdb605bf260f4e346b07eb9dca110718
 ModelImporter:
-  serializedVersion: 21202
+  serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 49347d3bedc55cb2aca8c85f956570d9
+    second: {fileID: 2800000, guid: 939ee86352606fb468d3b52140579c87, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 6290e53af567bb5cc98a879fe2417d18
+    second: {fileID: 2800000, guid: 5a49698504a56b149a563937a33dc457, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 7e557c8310f7a4b110fcf23b4d3c5d0c
+    second: {fileID: 2800000, guid: 433c6cd6939e4bd46a954e7aff15a84a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 851c31edbcd99390b43ba553bd6427ce
+    second: {fileID: 2800000, guid: 7c40a19c2bc8c4b469a94dc33e81595a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Concrete_E_Diff_
+    second: {fileID: 2800000, guid: d62e0de7bd017374e99b9197fc6f89ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Concrete_G_Diff_
+    second: {fileID: 2800000, guid: 1d0af21fce5e8434197c5544aab433e3, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -99,6 +129,7 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
