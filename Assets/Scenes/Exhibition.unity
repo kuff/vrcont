@@ -1630,10 +1630,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_TerrainData
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2239776645960229886, guid: 20e045f87c1a4fd4fad0dc01d47e33a4,
         type: 3}
       propertyPath: m_Name
@@ -4042,6 +4038,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3474925434595904797, guid: 564b59c02a884bf4d9013a849db61cde,
+        type: 3}
+      propertyPath: m_TerrainData
+      value: 
+      objectReference: {fileID: 15600000, guid: c76181e01539ddc47b3a3d4f4f552206,
+        type: 2}
+    - target: {fileID: 3474925434595904797, guid: 564b59c02a884bf4d9013a849db61cde,
+        type: 3}
+      propertyPath: m_AllowAutoConnect
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474925434595904797, guid: 564b59c02a884bf4d9013a849db61cde,
+        type: 3}
+      propertyPath: m_MaterialTemplate
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ab347e0635346d47853af073b354485, type: 2}
     - target: {fileID: 8464242377753117001, guid: 564b59c02a884bf4d9013a849db61cde,
         type: 3}
       propertyPath: m_RootOrder
@@ -4097,13 +4109,60 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8464242377753117002, guid: 564b59c02a884bf4d9013a849db61cde,
+        type: 3}
+      propertyPath: m_TerrainData
+      value: 
+      objectReference: {fileID: 15600000, guid: c76181e01539ddc47b3a3d4f4f552206,
+        type: 2}
     - target: {fileID: 8464242377753117004, guid: 564b59c02a884bf4d9013a849db61cde,
         type: 3}
       propertyPath: m_Name
       value: Forest (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3474925434595904797, guid: 564b59c02a884bf4d9013a849db61cde, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 564b59c02a884bf4d9013a849db61cde, type: 3}
+--- !u!1 &1255009430 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8464242377753117004, guid: 564b59c02a884bf4d9013a849db61cde,
+    type: 3}
+  m_PrefabInstance: {fileID: 1255009429}
+  m_PrefabAsset: {fileID: 0}
+--- !u!218 &1255009431
+Terrain:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255009430}
+  m_Enabled: 1
+  serializedVersion: 6
+  m_TerrainData: {fileID: 0}
+  m_TreeDistance: 5000
+  m_TreeBillboardDistance: 50
+  m_TreeCrossFadeLength: 5
+  m_TreeMaximumFullLODCount: 50
+  m_DetailObjectDistance: 80
+  m_DetailObjectDensity: 1
+  m_HeightmapPixelError: 5
+  m_SplatMapDistance: 1000
+  m_HeightmapMaximumLOD: 0
+  m_ShadowCastingMode: 2
+  m_DrawHeightmap: 1
+  m_DrawInstanced: 0
+  m_DrawTreesAndFoliage: 1
+  m_StaticShadowCaster: 0
+  m_ReflectionProbeUsage: 1
+  m_MaterialTemplate: {fileID: 0}
+  m_BakeLightProbesForTrees: 1
+  m_PreserveTreePrototypeLayers: 0
+  m_DeringLightProbesForTrees: 1
+  m_ScaleInLightmap: 1
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+  m_GroupingID: 0
+  m_RenderingLayerMask: 1
+  m_AllowAutoConnect: 0
 --- !u!4 &1257998467 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5602775319806219822, guid: fbfc588a949bb1a42b20e5bddc4cf8cf,
